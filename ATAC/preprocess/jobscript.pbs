@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#PBS -V
+#PBS -l walltime=20:00:00
+#PBS -m a
+#PBS -A ren-group
+# properties = {properties}
+module load R
+module load picard
+module load bowtie2
+module load samtools
+#module load macs2
+#module load bamCoverage
+unset PYTHONPATH
+export PATH=:$PATH:/projects/ps-renlab/share/bin
+#export PATH=:$PATH:/usr/bin
+#export PATH=:$PATH:/projects/ps-renlab/lamaral/software/miniconda3/envs/snakemake/bin
+#export PATH=:$PATH:/projects/ps-renlab/lamaral/software/miniconda3/envs/py27/bin
+export R_LIBS=/home/shz254/R_LIB:$R_LIBS
+{exec_job}
+
+
