@@ -11,6 +11,4 @@ aging_mouse_brain_code/
 ├── ATAC/                  # Single-nucleus ATAC-seq analysis
 ├── RNA/                   # RNA-seq preprocessing and analysis
 ├── MERFISH/               # MERFISH data processing
-├── scratch_scripts/       # Miscellaneous scripts
-├── README.md              # Project overview and instructions
-└── environment.yaml       # Conda environment specifications
+└── scratch_scripts/       # Miscellaneous scripts
