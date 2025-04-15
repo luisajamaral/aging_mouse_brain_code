@@ -4,7 +4,7 @@
 This repository contains the analysis pipeline and figure generation code for our study on age-associated chromatin and transcriptional changes in the mouse brain at single-cell resolution.
 
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```bash
 aging_mouse_brain_code/
